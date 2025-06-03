@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="opinioes">
+  <title>Portf&oacutelio: Opini&otildees</title>
+  <link rel="stylesheet" type="text/css" href="../css/style.css">
+</head>
+
+<body>
+  <header class="cabecalho">
+    <img class="cabecalho-imagem" src="../img/logo.png" onclick="homepage()">
+    <nav class="cabecalho-menu">
+      <a class="hvr-pulse-shrink" href="index.html">P&aacutegina inicial</a>
+      <a class="hvr-pulse-shrink" href="sobre.html">Sobre</a>
+      <a class="hvr-pulse-shrink" href="pessoal.html">Ambi&ccedil&otildees</a>
+      <a class="hvr-pulse-shrink" href="contato.html">Contato</a>
+    </nav>
+  </header>
+
+  <main class="conteudo">
+    <div class="div-form">
+      <br>
+      <h2>Me conte mais sobre você!!</h2><br>
+      <br>
+      <p>Um momento do site dedicado especialmente para saber quem está acessando essa página</p><br>
+      <br>  
+      <form id="form" class="form">
+        <label for="nome">Nome completo:</label><br>
+        <br>
+        <input type="text" name="nome" id="nome" placeholder=" Insira o nome completo" required><br>
+        <br>
+        <label for="email">Email:</label><br>
+        <br>
+        <input type="text" name="email" id="email" placeholder=" Insira o seu email" required><br>
+        <br>
+        <label form="idade">Idade:</label><br>
+        <br>
+        <input type="text" name="idade" id="idade" placeholder="Insira sua idade" required><br>
+        <br>
+        <label for="hobbies">Hobbies e gostos:</label><br>
+        <br>
+        <textarea name="hobbies" id="hobbies" cols="30" rows="5" placeholder="Digite aqui seus gostos e hobbies..."></textarea><br>
+        <br>
+        <label for="comida">Comida preferida:</label><br>
+        <br>
+        <input type="text" name="comida" id="comida" placeholder="Comida preferida"><br>
+        <br>
+        <label for="curiosidade">Me conte uma curiosidade sobre você:</label><br>
+        <br>
+        <textarea name="curiosidade" id="curiosidade" cols="30" rows="5" placeholder="Digite uma curiosidade"></textarea><br>
+        <br>
+        <label for="opiniao">Sobre minha página web, escreva suas opini&otildees, cr&iacuteticas e elogios:</label><br>
+        <br>
+        <textarea name="opiniao" id="opiniao" cols="30" rows="10" placeholder=" Digite aqui..."></textarea><br>
+        <br>
+        <button type="submit">Enviar</button>
+      </form>
+    </div>
+  </main>
+
+  <footer class="rodape">
+        <h3>Desenvolvido por: Bernardo Signor</h3>
+  </footer>
+  <script src='homepage.js'></script>
+</body>
+
+</html>
